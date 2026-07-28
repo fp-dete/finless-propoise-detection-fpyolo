@@ -15,8 +15,8 @@ The resulting directory structure should be:
 
 ```text
 project/
-├── yolov5/
-└── deep_sort/
+└──yolov5/
+    └── deep_sort/
 ```
 
 If necessary, create a project directory before cloning the repositories:
