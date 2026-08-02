@@ -1,6 +1,6 @@
-# YOLOv5 + DeepSORT
+# FPYOLO Detection
 
-This project uses YOLOv5 for object detection and DeepSORT for continuous object tracking. Please download the source code from the official GitHub repositories to avoid interface differences or compatibility issues associated with third-party implementations.
+This project uses YOLOv5 for object detection and DeepSORT for continuous finless porpoise detection. Please download the source code from the official GitHub repositories to avoid interface differences or compatibility issues associated with third-party implementations.
 
 ## 1. Download the Source Code
 
@@ -88,7 +88,7 @@ backbone:
    [-1, 3, C3, [1024]],
    [-1, 1, SPPF, [1024, 5]],            # 9
   ]
-   [-1, 1, Conv, [256, 3, 2]],
+   [-1, 1, Conv_CBAM, [256, 3, 2]],
    [[-1, 14], 1, Concat, [1]],  # cat head P4
    [-1, 3, C3, [512, False]],  # 20 (P4/16-medium)
    [-1, 1, Conv, [512, 3, 2]],
@@ -96,5 +96,12 @@ backbone:
    [-1, 3, C3, [1024, False]],  # 23 (P5/32-large)
    [[17, 20, 23], 1, Detect, [nc, anchors]],  # Detect(P3, P4, P5)
   ]
+  
 ```
+## 5. Dataset
 
+The dataset is available at the following link.
+
+```bash
+https://drive.google.com/file/d/13M9WAvfYQBQIqZE9eCZb-Rk19I6WLZHr/view?usp=drive_link
+```
