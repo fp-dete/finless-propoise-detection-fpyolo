@@ -103,5 +103,5 @@ backbone:
 The dataset is available at the following link.
 
 ```bash
-https://drive.google.com/file/d/13M9WAvfYQBQIqZE9eCZb-Rk19I6WLZHr/view?usp=drive_link
+https://drive.google.com/file/d/13M9WAvfYQBQIqZE9eCZb-Rk19I6WLZHr
 ```
