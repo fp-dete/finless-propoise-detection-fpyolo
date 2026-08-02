@@ -134,7 +134,6 @@ def detect(opt):
             p = Path(p)  # to Path
             s += '%gx%g ' % img.shape[2:]  # print string
 
-            # 创建三个图片保存路径
             yolo_detection_path = save_dir / 'yolo_detections' / f'{p.stem}_{frame_idx:06d}.jpg'
             tracking_result_path = save_dir / 'tracking_results' / f'{p.stem}_{frame_idx:06d}.jpg'
             labeled_tracking_path = save_dir / 'labeled_tracking' / f'{p.stem}_{frame_idx:06d}.jpg'
