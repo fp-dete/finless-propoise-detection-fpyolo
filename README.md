@@ -96,12 +96,3 @@ backbone:
    [-1, 3, C3, [1024, False]],  # 23 (P5/32-large)
    [[17, 20, 23], 1, Detect, [nc, anchors]],  # Detect(P3, P4, P5)
   ]
-  
-```
-## 5. Dataset
-
-The dataset is available at the following link.
-
-```bash
-https://drive.google.com/file/d/13M9WAvfYQBQIqZE9eCZb-Rk19I6WLZHr
-```
